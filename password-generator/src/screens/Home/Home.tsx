@@ -13,9 +13,6 @@ export default function Home()
             <View style={styles.logoContainer}>
                 <BatLogo />
             </View>
-            <View style={styles.inputContainer}>
-                <EntradaTexto />
-            </View>
             <View style={styles.buttonContainer}>
                 <BatButton />
             </View>

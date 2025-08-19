@@ -3,10 +3,14 @@ import {TextInput} from 'react-native';
 
 import { styles } from './TextInputStyle';
 
-export function EntradaTexto() {
+interface EntradaTextoProps 
+{
+  password: string;
+}
+export function EntradaTexto(props: EntradaTextoProps) {
   return (
     <>
-      <TextInput placeholder="Digite sua senha" secureTextEntry style={styles.inputStyle} />
+      <TextInput placeholder="Digite sua senha" style={styles.inputStyle} value={props.password} />
     </>
   );
 }
