@@ -1,0 +1,1 @@
+Diretamente de Gotham, esta é uma bat-ferramenta para gerar senhas seguras. Este aplicativo foi um projeto de estudo focado em solidificar os conhecimentos iniciais em React Native. Nele, foram aplicados conceitos essenciais como a criação de componentes, o uso de Hooks (useState) para controle de estado e a estilização básica.
